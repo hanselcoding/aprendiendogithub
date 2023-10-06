@@ -17,4 +17,4 @@ for (let i  =0; i<12; i++) {
          continue}
     
     console.log(i)
-}   j
+}   jddddd
