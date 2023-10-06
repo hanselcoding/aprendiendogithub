@@ -1,0 +1,50 @@
+html { 
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+    
+
+
+}
+header {
+    background-color: #364552;
+    color: white;
+    padding: 1rem 2rem ;
+}
+#titulo {
+    color: rgb(255, 0, 0);
+}
+h2 {
+    color: blue;
+}
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+.container {
+/*     width: 400px;
+    /* margin: 0 auto; */
+    /* flex-wrap: wrap; *//*  grid */
+    display: flex;
+    gap: 20px;
+    justify-content: space-around; 
+}
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}

@@ -1,0 +1,204 @@
+#titulo {
+    color: tomato;
+}
+
+/*  html {
+    background:black;
+}  */
+
+h1 {
+    color: brown;
+}
+
+p.yisus {
+    color: slateblue;
+}
+
+p.elias {
+    color: mediumspringgreen;
+}
+
+p.hansel {
+    color: aqua;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2,
+div h3 {
+    color: brown;
+}
+
+/* * {
+    font-size: 24px;
+    color: aliceblue; */
+
+
+/* esto es un comentario 
+
+.color {
+    color:#ff0000 ;
+} .color {
+    color:#ff0000
+}
+*/
+
+
+
+/* dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden 
+   */
+
+.color {
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2rem;
+
+
+
+}
+
+#fondo {
+
+    background: #f00 url("/img/idk.png") repeat-y center bottom /100px 100px;
+    background-color: rgba(0, 0, 0);
+    /*  opacity: 0.3; */
+    background-image: url("/img/idk.png");
+    height: 200px;
+
+    background-repeat: repeat-y;
+    background-position: center top;
+}
+
+.margen {
+    background-color: red;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 10px orange;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+
+
+}
+
+.text {
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px blue;
+
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    background-color: cyan;
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    border: solid 1px black;
+    padding-right: 10px;
+
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+
+
+}
+
+tr:active {
+    background-color: red;
+}
+
+span{
+   max-width: 300px;  display: block; 
+   /* display: none;
+   visibility: hidden; */
+   background-color: red;
+}
+.inline {
+    display:inline;
+}
+#position {
+    position: sticky;
+    left: 20px;
+     top: 25px;
+}
+.left{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.container {
+    height: 200px;
+
+}
+.column {
+   
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+}
+.rigth {
+    float: right;
+}
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: red;
+}
+.center { 
+    padding: 50px 0 ;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+
+}

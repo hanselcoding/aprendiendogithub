@@ -16,3 +16,7 @@ export const dividir = (a, b) => {
 export const potencia = (a, b) => {
     return a ** b
 }
+
+
+
+let hansel = 20 
